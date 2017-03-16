@@ -23,7 +23,13 @@ function f=pathplan(init,final)
 
 lb=[0 0;0 0];
 ub=[10 10;10 10];
-x0=[1,2;3,7;4,6;9,9];
+x0=[0, 0;
+    3, 7;
+    4, 6;
+    2, 5;
+    3, 8;
+    5, 9;
+    9, 9];
 global initialv;
 global finalv;
 initialv=init;

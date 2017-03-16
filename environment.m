@@ -5,7 +5,7 @@
 %function environment(init, target)
 %Obstacles
 circle_pos1 = [2 3 1 1]; 
-circle_pos2 = [8 5 1.5 1.5]; 
+circle_pos2 = [7 5 2 2]; 
 circle_pos3 = [2 8 1 1]; 
 circle_pos4 = [7 2 1 1]; 
 obs_colour = [0 .5 .5];
